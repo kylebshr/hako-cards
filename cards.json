@@ -1,0 +1,297 @@
+{
+  "cards": [
+    {
+      "categoryPoints": {
+        "fixed": {
+          "_0": {
+            "categoryPoints": [
+              "dining",
+              [
+                {
+                  "attributes": [],
+                  "percent": 3
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "issuer": {
+        "tint": "blue",
+        "name": "Chase",
+        "id": "chase"
+      },
+      "basePoints": [
+        {
+          "percent": 1.5,
+          "attributes": []
+        }
+      ],
+      "id": "freedom-unlimited",
+      "name": "Freedom Unlimited",
+      "imageName": "Mini-Mid-Blue-Card"
+    },
+    {
+      "categoryPoints": {
+        "fixed": {
+          "_0": {
+            "categoryPoints": [
+              "travel",
+              [
+                {
+                  "percent": 2,
+                  "attributes": []
+                },
+                {
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Purchased through Chase"
+                      }
+                    }
+                  ],
+                  "percent": 5
+                }
+              ],
+              "dining",
+              [
+                {
+                  "attributes": [],
+                  "percent": 3
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "basePoints": [
+        {
+          "attributes": [],
+          "percent": 1
+        }
+      ],
+      "id": "sapphire-preferred",
+      "imageName": "Mini-Dark-Blue-Card",
+      "issuer": {
+        "name": "Chase",
+        "id": "chase",
+        "tint": "blue"
+      },
+      "redemptionMultiplier": 1.25,
+      "name": "Sapphire Preferred"
+    },
+    {
+      "issuer": {
+        "tint": "blue",
+        "id": "chase",
+        "name": "Chase"
+      },
+      "name": "Sapphire Reserve",
+      "basePoints": [
+        {
+          "attributes": [],
+          "percent": 1
+        }
+      ],
+      "categoryPoints": {
+        "fixed": {
+          "_0": {
+            "categoryPoints": [
+              "travel",
+              [
+                {
+                  "percent": 3,
+                  "attributes": []
+                },
+                {
+                  "percent": 5,
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Purchased through Chase"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "dining",
+              [
+                {
+                  "percent": 3,
+                  "attributes": []
+                }
+              ],
+              "flights",
+              [
+                {
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Purchased through Chase"
+                      }
+                    }
+                  ],
+                  "percent": 10
+                }
+              ],
+              "hotels",
+              [
+                {
+                  "percent": 10,
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Purchased through Chase"
+                      }
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "imageName": "Mini-Dark-Blue-Card",
+      "redemptionMultiplier": 1.5,
+      "id": "sapphire-reserve"
+    },
+    {
+      "imageName": "Mini-Light-Blue-Card",
+      "id": "blue-cash-everyday",
+      "name": "Blue Cash Everyday",
+      "issuer": {
+        "tint": "blue",
+        "id": "amex",
+        "name": "American Express"
+      },
+      "categoryPoints": {
+        "fixed": {
+          "_0": {
+            "categoryPoints": [
+              "groceries",
+              [
+                {
+                  "percent": 3,
+                  "attributes": []
+                }
+              ],
+              "gas",
+              [
+                {
+                  "percent": 3,
+                  "attributes": []
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "basePoints": [
+        {
+          "percent": 1,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "issuer": {
+        "name": "American Express",
+        "tint": "blue",
+        "id": "amex"
+      },
+      "id": "platinum",
+      "basePoints": [
+        {
+          "percent": 1,
+          "attributes": []
+        }
+      ],
+      "categoryPoints": {
+        "fixed": {
+          "_0": {
+            "categoryPoints": [
+              "groceries",
+              [
+                {
+                  "attributes": [],
+                  "percent": 3
+                }
+              ],
+              "gas",
+              [
+                {
+                  "attributes": [],
+                  "percent": 3
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "name": "Platinum Card",
+      "imageName": "Mini-Silver-Card"
+    },
+    {
+      "basePoints": [
+        {
+          "percent": 1,
+          "attributes": []
+        }
+      ],
+      "imageName": "Mini-Gold-Card",
+      "id": "gold",
+      "name": "Gold Card",
+      "categoryPoints": {
+        "fixed": {
+          "_0": {
+            "categoryPoints": [
+              "gas",
+              [
+                {
+                  "attributes": [],
+                  "percent": 3
+                }
+              ],
+              "groceries",
+              [
+                {
+                  "attributes": [],
+                  "percent": 3
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "issuer": {
+        "tint": "blue",
+        "name": "American Express",
+        "id": "amex"
+      }
+    },
+    {
+      "name": "Apple Card",
+      "id": "apple-card",
+      "basePoints": [
+        {
+          "attributes": [],
+          "percent": 1
+        },
+        {
+          "percent": 2,
+          "attributes": [
+            {
+              "applePay": {}
+            }
+          ]
+        }
+      ],
+      "imageName": "Mini-White-Card",
+      "issuer": {
+        "id": "apple",
+        "name": "Apple",
+        "tint": "foregound"
+      }
+    }
+  ]
+}
