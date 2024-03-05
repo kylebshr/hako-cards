@@ -210,18 +210,30 @@
         "fixed": {
           "_0": {
             "categoryPoints": [
-              "groceries",
+              "Hotels",
               [
                 {
-                  "attributes": [],
-                  "percent": 3
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Booked on AmexTravel.com"
+                      }
+                    }
+                  ],
+                  "percent": 5
                 }
               ],
-              "gas",
+              "flights",
               [
                 {
-                  "attributes": [],
-                  "percent": 3
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Booked directly with airlines or on AmexTravel.com"
+                      }
+                    }
+                  ],
+                  "percent": 5
                 }
               ]
             ]
@@ -245,18 +257,31 @@
         "fixed": {
           "_0": {
             "categoryPoints": [
-              "gas",
+              "dining",
               [
                 {
                   "attributes": [],
-                  "percent": 3
+                  "percent": 4
                 }
               ],
               "groceries",
               [
                 {
                   "attributes": [],
-                  "percent": 3
+                  "percent": 4
+                }
+              ],
+              "flights",
+              [
+                {
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Booked directly with airlines or on AmexTravel.com"
+                      }
+                    }
+                  ],
+                  "percent": 4
                 }
               ]
             ]
