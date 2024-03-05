@@ -46,7 +46,7 @@
                   "attributes": [
                     {
                       "portal": {
-                        "_0": "Purchased through Chase"
+                        "_0": "Purchased through Chase Ultimate Rewards"
                       }
                     }
                   ],
@@ -108,7 +108,7 @@
                   "attributes": [
                     {
                       "portal": {
-                        "_0": "Purchased through Chase"
+                        "_0": "Purchased through Chase Ultimate Rewards"
                       }
                     }
                   ]
@@ -127,7 +127,7 @@
                   "attributes": [
                     {
                       "portal": {
-                        "_0": "Purchased through Chase"
+                        "_0": "Purchased through Chase Ultimate Rewards"
                       }
                     }
                   ],
@@ -141,7 +141,20 @@
                   "attributes": [
                     {
                       "portal": {
-                        "_0": "Purchased through Chase"
+                        "_0": "Purchased through Chase Ultimate Rewards"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "car-rentals",
+              [
+                {
+                  "percent": 10,
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Purchased through Chase Ultimate Rewards"
                       }
                     }
                   ]
