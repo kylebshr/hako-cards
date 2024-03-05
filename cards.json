@@ -330,6 +330,72 @@
         "name": "Apple",
         "tint": "foregound"
       }
+    },
+    {
+      "basePoints": [
+        {
+          "percent": 2,
+          "attributes": []
+        }
+      ],
+      "imageName": "Mini-Light-Blue-Card",
+      "id": "double-cash",
+      "name": "Double Cash",
+      "issuer": {
+        "tint": "blue",
+        "name": "Citi",
+        "id": "citi"
+      }
+    },
+    {
+      "basePoints": [
+        {
+          "percent": 1,
+          "attributes": []
+        }
+      ],
+      "imageName": "Mini-Black-Card",
+      "id": "aadvantage-exec",
+      "name": "AA Executive",
+      "categoryPoints": {
+        "fixed": {
+          "_0": {
+            "categoryPoints": [
+              "hotels",
+              [
+                {
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Booked through aa.com/hotels"
+                      }
+                    }
+                  ],
+                  "percent": 10
+                }
+              ],
+              "car-rentals",
+              [
+                {
+                  "attributes": [
+                    {
+                      "portal": {
+                        "_0": "Booked through aa.com/cars"
+                      }
+                    }
+                  ],
+                  "percent": 10
+                }
+              ]
+            ]
+          }
+        }
+      },
+      "issuer": {
+        "tint": "blue",
+        "name": "Citi",
+        "id": "citi"
+      }
     }
   ]
 }
